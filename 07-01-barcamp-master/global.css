@@ -1,0 +1,441 @@
+@charset "utf-8";
+
+html {
+  box-sizing: border-box;
+  color: #6b797f;
+  font: 20px "Rokkitt", Helvetica, Arial, sans-serif;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  color: #394B63;
+  font: 36px/40px "Rokkitt", Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+}
+
+h3 {
+  color: #394B63;
+  font: 28px/36px "Rokkitt", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+sup {
+  position: relative;
+  left: 3.25%;
+  bottom: 20px;
+  font-size: 50%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+ul {
+  color: #6B5257;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  line-height: 200%;
+  font-family: Verdana, "Geneva", sans-serif;
+  font-size: 14px;
+  margin-bottom: 10em;
+}
+
+hr {
+  width: 90%;
+  height: 1px;
+  color: #ddd;
+  opacity: 0.5;
+}
+
+.logo {
+  width: 170px;
+  display: block;
+  position: relative;
+  float: left;
+  left: 15px;
+  top: 7px;
+}
+
+.part1 {
+  float: left;
+  position: relative;
+  width: 900px;
+  height: 495px;
+  margin: 50px 0 0 -450px;
+  left: 50%;
+  overflow: hidden;
+}
+
+.mountains {
+  background: url("../assets/mountains.jpg") repeat-x center center / cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lake {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  z-index: 10;
+}
+
+.trees {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  max-height: 495px;
+}
+
+.hero_logo {
+  width: 25%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin: 4% 0px 0px -12.5%;
+  z-index: 30;
+}
+
+.top_bar {
+  background: #2C4947;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  height: 60px;
+  width: 100%;
+  margin: 0;
+}
+
+.menu {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.intro {
+  float: left;
+  position: relative;
+  left: 4%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 92%;
+  color: #394B63;
+  font: 36px/40px "Rokkitt", Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+}
+
+.category_title {
+  float: left;
+  text-align: center;
+}
+
+.kaneko {
+  text-align: center;
+  color: #314A5E;
+  font-size: 22px;
+  margin-bottom: 0;
+  position: relative;
+  top: 73%;
+  z-index: 99;
+}
+
+.omaha {
+  color: #314A5E;
+}
+
+.date {
+  position: relative;
+  display: inline-block;
+  left: 33.5%;
+  width: 150px;
+  z-index: 99;
+}
+
+.bottom_overlay {
+  float: left;
+  width: 100%;
+  position: relative;
+  bottom: 135px;
+}
+
+.partner {
+  background: rgba(27, 49, 47, 0.75);
+  position: relative;
+  z-index: 50;
+  right: 0;
+  top: 16px;
+  width: 100%;
+  height: 79px;
+}
+
+.aiga {
+  position: relative;
+  left: 15%;
+  top: 5px;
+  max-width: 292px;
+}
+
+.part2 {
+  float: left;
+  width: 100%;
+}
+
+.register_bird {
+  background: url("../assets/buttonlines.png") no-repeat center center;
+}
+
+.bird {
+  width: 50px;
+  display: inline-block;
+  position: absolute;
+  left: 46%;
+  z-index: 50;
+}
+
+.button {
+  text-align: center;
+  border-radius: 50px;
+  background: #6ba236;
+  position: relative;
+  top: 41px;
+  display: inline-block;
+  padding: 17px 38px 15px;
+  color: #fff;
+  font: 700 18px "proxima-nova", Arial, sans-serif;
+  margin-left: 146px;
+}
+
+.price {
+  text-align: center;
+  color: #6ba236;
+  font-size: 80px;
+}
+
+.expert {
+  color: #6b797f;
+  font: 20px "Rokkitt", Helvetica, Arial, sans-serif;
+  line-height: 28px;
+  width: 84%;
+  margin: 0 4%;
+  max-width: 480px;
+  float: left;
+  position: relative;
+  left: 5%;
+  bottom: 45px;
+}
+
+.dash {
+  background: linear-gradient(to right, #DBD2CB 50%, rgba(255, 255, 255, 0) 0%) repeat-x center bottom / 31px 3px;
+  height: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.category {
+  position: relative;
+  left: 20%;
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category_title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #709B4C;
+  width: 100%;
+}
+
+.event_schedule {
+  margin: 70px 20px 70px 20px;
+  width: 320px;
+}
+
+.date2 {
+  color: #EDC542;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.location {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0px 15px 15px 15px;
+}
+
+
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 3px solid #D1582B;
+  text-align: center;
+  color: #fff;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  margin: auto;
+}
+
+.time {
+  font-size: 48px;
+  line-height: 32px;
+  padding-top: 12px;
+  position: relative;
+  display: block;
+}
+
+.pm {
+  display: block;
+  font-size: 18px;
+  position: relative;
+  bottom: 5%;
+  color: #fff;
+  margin: 0;
+}
+
+.fire {
+  width: 320px;
+  position: relative;
+  margin: 60px 0px 60px 0px;
+}
+
+.schedule {
+  text-align: center;
+  margin-top: 0px;
+  color: #fff;
+  font: 14px/24px "proxima-nova", Arial, sans-serif;
+}
+
+.part3 {
+  text-align: center;
+  background: url("../assets/board.jpg");
+  float: left;
+}
+
+.part3content {
+  margin: 10px;
+  width: 92%;
+}
+
+.activity {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.schedule_item {
+  color: #fff;
+  font: 22px/28px "proxima-nova", Arial, sans-serif;
+  padding-bottom: 5px;
+}
+
+.part4 {
+  background: #CAECF8 url("../assets/tower.png") no-repeat center center;
+  float: left;
+  position: relative;
+  width: 100%;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+}
+
+.faq {
+  float: left;
+  width: 200px;
+  margin: 10px auto;
+}
+
+.faq_list {
+  width: 90%;
+  margin: 40px 5% 375px;
+  float: left;
+  position: relative;
+  z-index: 2;
+  min-height: 700px;
+}
+
+.q {
+  color: #754C30;
+  font: 24px "Rokkitt", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 200%;
+  text-align: left;
+}
+
+.plus {
+  margin-right: 10px;
+  width: 20px;
+  float: left;
+  clear: both;
+
+}
+
+.part5 {
+  background: url("../assets/footer.png") no-repeat center center;
+  float: left;
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+}
+
+.sponsors {
+  margin-top: 50px;
+  position: relative;
+  left: 3%;
+  width: 92%;
+}
+
+.hill_back {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.hill_front {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  left: 0;
+}
