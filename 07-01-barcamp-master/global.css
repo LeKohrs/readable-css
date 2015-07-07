@@ -27,22 +27,6 @@ img {
   height: auto;
 }
 
-h2 {
-  font: 36px/40px "Rokkitt", Helvetica, Arial, sans-serif;
-  color: #394B63;
-  letter-spacing: -1px;
-}
-
-h3 {
-  font: 28px/36px "Rokkitt", Helvetica, Arial, sans-serif;
-  color: #394B63;
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
 sup {
   position: relative;
   vertical-align: baseline;
@@ -70,6 +54,33 @@ hr {
   opacity: 0.5;
 }
 
+h2 {
+  font: 36px/40px "Rokkitt", Helvetica, Arial, sans-serif;
+  color: #394B63;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font: 28px/36px "Rokkitt", Helvetica, Arial, sans-serif;
+  color: #394B63;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  background: #2C4947;
+}
+
 .top-bar__logo {
   position: relative;
   display: block;
@@ -77,6 +88,12 @@ hr {
   top: 7px;
   left: 15px;
   width: 170px;
+}
+
+.top-bar__menu {
+  position: absolute;
+  top: 10px;
+  right: 15px;
 }
 
 .header {
@@ -122,39 +139,11 @@ hr {
   margin: 4% 0px 0px -12.5%;
 }
 
-.top-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 99;
-  width: 100%;
-  height: 60px;
-  margin: 0;
-  background: #2C4947;
-}
-
-.top-bar__menu {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-}
-
-.intro {
+.info {
   position: relative;
   float: left;
-  left: 4%;
-  width: 92%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font: 36px/40px "Rokkitt", Helvetica, Arial, sans-serif;
-  color: #394B63;
-  letter-spacing: -1px;
-  text-align: center;
-}
-
-.category_title {
-  float: left;
-  text-align: center;
+  bottom: 135px;
+  width: 100%;
 }
 
 .info__kaneko {
@@ -179,13 +168,6 @@ hr {
   width: 150px;
 }
 
-.info {
-  position: relative;
-  float: left;
-  bottom: 135px;
-  width: 100%;
-}
-
 .info__partner {
   position: relative;
   z-index: 50;
@@ -205,6 +187,24 @@ hr {
 
 /* -------------------- END ---------------------- */
 
+
+.intro {
+  position: relative;
+  float: left;
+  left: 4%;
+  width: 92%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font: 36px/40px "Rokkitt", Helvetica, Arial, sans-serif;
+  color: #394B63;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.category_title {
+  float: left;
+  text-align: center;
+}
 
 .part2 {
   float: left;
