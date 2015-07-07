@@ -70,7 +70,7 @@ hr {
   opacity: 0.5;
 }
 
-.logo {
+.top-bar__logo {
   width: 170px;
   display: block;
   position: relative;
@@ -79,7 +79,7 @@ hr {
   top: 7px;
 }
 
-.part1 {
+.header {
   float: left;
   position: relative;
   width: 900px;
@@ -89,7 +89,7 @@ hr {
   overflow: hidden;
 }
 
-.mountains {
+.header__mountains {
   background: url("assets/mountains.jpg") repeat-x center center / cover;
   width: 100%;
   height: 100%;
@@ -98,14 +98,14 @@ hr {
   left: 0;
 }
 
-.lake {
+.header__lake {
   position: absolute;
   top: 25px;
   left: 0;
   z-index: 10;
 }
 
-.trees {
+.header__trees {
   position: absolute;
   top: 0;
   left: 0;
@@ -113,7 +113,7 @@ hr {
   max-height: 495px;
 }
 
-.hero_logo {
+.header__hero-logo {
   width: 25%;
   left: 50%;
   position: absolute;
@@ -122,7 +122,7 @@ hr {
   z-index: 30;
 }
 
-.top_bar {
+.top-bar {
   background: #2C4947;
   position: fixed;
   top: 0;
@@ -133,7 +133,7 @@ hr {
   margin: 0;
 }
 
-.menu {
+.top-bar__menu {
   position: absolute;
   right: 15px;
   top: 10px;
@@ -157,7 +157,7 @@ hr {
   text-align: center;
 }
 
-.kaneko {
+.info__kaneko {
   text-align: center;
   color: #314A5E;
   font-size: 22px;
@@ -167,11 +167,11 @@ hr {
   z-index: 99;
 }
 
-.omaha {
+.keneko__omaha {
   color: #314A5E;
 }
 
-.date {
+.info__date {
   position: relative;
   display: inline-block;
   left: 33.5%;
@@ -179,14 +179,14 @@ hr {
   z-index: 99;
 }
 
-.bottom_overlay {
+.info {
   float: left;
   width: 100%;
   position: relative;
   bottom: 135px;
 }
 
-.partner {
+.info__partner {
   background: rgba(27, 49, 47, 0.75);
   position: relative;
   z-index: 50;
@@ -196,7 +196,7 @@ hr {
   height: 79px;
 }
 
-.aiga {
+.partner__aiga {
   position: relative;
   left: 15%;
   top: 5px;
